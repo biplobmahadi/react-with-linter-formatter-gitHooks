@@ -1,7 +1,6 @@
 {
-  "name": "test-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "cra-template-linter-formatter-git-hooks",
+  "version": "0.1.1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -25,8 +24,7 @@
     "check-format": "prettier --check .",
     "check-lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
     "check-types": "tsc --pretty --noEmit",
-    "test-all": "npm run format && npm run check-format && npm run check-lint && npm run check-types && npm run build",
-    "prepare": "husky install"
+    "test-all": "npm run format && npm run check-format && npm run check-lint && npm run check-types && npm run build"
   },
   "eslintConfig": {
     "extends": [
