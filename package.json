@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-linter-formatter-git-hooks",
+  "name": "cra-template-linter-formatter-git-hook",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
